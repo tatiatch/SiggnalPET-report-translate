@@ -1,0 +1,224 @@
+[
+    {
+        "id": 110,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": ["658db031f01067fc540e2023"],
+        "codeId": 17,
+        "abbreviation": "apf",
+        "description": "Assessment for one or more fractures of the appendicular skeleton",
+        "summary": "Interruption of the cortex is detected in an appendicular bone. Fractures may be caused by trauma or bone pathology. Additional views may be necessary to adequately assess for a fracture. \r\nDDx: Traumatic fracture, pathologic fracture, other",
+        "name": "Appendicular Bone Fracture",
+        "group": "musculoskeletal",
+        "subgroup": "bone"
+    },
+    {
+        "id": 111,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": ["658db031f01067fc540e2023"],
+        "codeId": 723,
+        "abbreviation": "abl",
+        "description": "Assessment for a lytic and/or blastic bone lesion(s)",
+        "summary": "Presence of a lesion within bone that is lytic and/or blastic. Summation or overlap of structures, radiographic technique, or other disease processes may affect appearance of bone. Based on clinical signs, signalment, physical exam findings, etc., further diagnostics may be necessary to diagnose neoplasia, osteomyelitis, or other cause of the suspected lesion.\r\nDDx: Neoplasia, osteomyelitis, other",
+        "name": "Lytic and/or Blastic Bone Lesions",
+        "group": "musculoskeletal",
+        "subgroup": "bone"
+    },
+    {
+        "id": 109,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": ["658db031f01067fc540e2023"],
+        "codeId": 16,
+        "abbreviation": "pfx",
+        "description": "Assessment for a fracture of one or more bones of the pelvis",
+        "summary": "An abnormal signal indicates the presence of a disruption of cortex in one or more bones of the pelvis. Fractures may be caused by trauma or bone pathology. Treatment options should be determined depending on location, chronicity, clinical signs, etc.\r\nDDx: Traumatic fracture, pathologic fracture, other",
+        "name": "Pelvic Fracture",
+        "group": "musculoskeletal",
+        "subgroup": "pelvis"
+    },
+    {
+        "id": 8071,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [
+            {
+                "svg": "M496,579L495.53773,569.59035L494.15539,560.27133L491.86627,551.13267L488.69244,542.26239L484.66444,533.74591L479.82108,525.66526L474.209,518.09824L467.88225,511.11775L460.90176,504.791L453.33474,499.17892L445.25409,494.33556L436.73761,490.30756L427.86733,487.13373L418.72867,484.84461L409.40965,483.46227L400,483L390.59035,483.46227L381.27133,484.84461L372.13267,487.13373L363.26239,490.30756L354.74591,494.33556L346.66526,499.17892L339.09824,504.791L332.11775,511.11775L325.791,518.09824L320.17892,525.66526L315.33556,533.74591L311.30756,542.26239L308.13373,551.13267L305.84461,560.27133L304.46227,569.59035L304,579L304.46227,588.40965L305.84461,597.72867L308.13373,606.86733L311.30756,615.73761L315.33556,624.25409L320.17892,632.33474L325.791,639.90176L332.11775,646.88225L339.09824,653.209L346.66526,658.82108L354.74591,663.66444L363.26239,667.69244L372.13267,670.86627L381.27133,673.15539L390.59035,674.53773L400,675L409.40965,674.53773L418.72867,673.15539L427.86733,670.86627L436.73761,667.69244L445.25409,663.66444L453.33474,658.82108L460.90176,653.209L467.88225,646.88225L474.209,639.90176L479.82108,632.33474L484.66444,624.25409L488.69244,615.73761L491.86627,606.86733L494.15539,597.72867L495.53773,588.40965L496,579z",
+                "imageId": "65cbc78ede3b7234d604f922"
+            },
+            {
+                "svg": "M452,1820L451.73998,1814.70707L450.96241,1809.46512L449.67478,1804.32463L447.88949,1799.33509L445.62375,1794.54458L442.89936,1789.99921L439.74256,1785.74276L436.18377,1781.81623L432.25724,1778.25744L428.00079,1775.10064L423.45542,1772.37625L418.66491,1770.11051L413.67537,1768.32522L408.53488,1767.03759L403.29293,1766.26002L398,1766L392.70707,1766.26002L387.46512,1767.03759L382.32463,1768.32522L377.33509,1770.11051L372.54458,1772.37625L367.99921,1775.10064L363.74276,1778.25744L359.81623,1781.81623L356.25744,1785.74276L353.10064,1789.99921L350.37625,1794.54458L348.11051,1799.33509L346.32522,1804.32463L345.03759,1809.46512L344.26002,1814.70707L344,1820L344.26002,1825.29293L345.03759,1830.53488L346.32522,1835.67537L348.11051,1840.66491L350.37625,1845.45542L353.10064,1850.00079L356.25744,1854.25724L359.81623,1858.18377L363.74276,1861.74256L367.99921,1864.89936L372.54458,1867.62375L377.33509,1869.88949L382.32463,1871.67478L387.46512,1872.96241L392.70707,1873.73998L398,1874L403.29293,1873.73998L408.53488,1872.96241L413.67537,1871.67478L418.66491,1869.88949L423.45542,1867.62375L428.00079,1864.89936L432.25724,1861.74256L436.18377,1858.18377L439.74256,1854.25724L442.89936,1850.00079L445.62375,1845.45542L447.88949,1840.66491L449.67478,1835.67537L450.96241,1830.53488L451.73998,1825.29293L452,1820z",
+                "imageId": "65cbc7908bcf3182a90d50f2"
+            },
+            {
+                "svg": "M497,1754L496.73034,1748.51104L495.92398,1743.07494L494.58866,1737.74406L492.73725,1732.56973L490.38759,1727.60178L487.5623,1722.88807L484.28859,1718.47398L480.59798,1714.40202L476.52602,1710.71141L472.11193,1707.4377L467.39822,1704.61241L462.43027,1702.26275L457.25594,1700.41134L451.92506,1699.07602L446.48896,1698.26966L441,1698L435.51104,1698.26966L430.07494,1699.07602L424.74406,1700.41134L419.56973,1702.26275L414.60178,1704.61241L409.88807,1707.4377L405.47398,1710.71141L401.40202,1714.40202L397.71141,1718.47398L394.4377,1722.88807L391.61241,1727.60178L389.26275,1732.56973L387.41134,1737.74406L386.07602,1743.07494L385.26966,1748.51104L385,1754L385.26966,1759.48896L386.07602,1764.92506L387.41134,1770.25594L389.26275,1775.43027L391.61241,1780.39822L394.4377,1785.11193L397.71141,1789.52602L401.40202,1793.59798L405.47398,1797.28859L409.88807,1800.5623L414.60178,1803.38759L419.56973,1805.73725L424.74406,1807.58866L430.07494,1808.92398L435.51104,1809.73034L441,1810L446.48896,1809.73034L451.92506,1808.92398L457.25594,1807.58866L462.43027,1805.73725L467.39822,1803.38759L472.11193,1800.5623L476.52602,1797.28859L480.59798,1793.59798L484.28859,1789.52602L487.5623,1785.11193L490.38759,1780.39822L492.73725,1775.43027L494.58866,1770.25594L495.92398,1764.92506L496.73034,1759.48896L497,1754z",
+                "imageId": "65cbc7908bcf3182a90d50f2"
+            },
+            {
+                "svg": "M596,808L595.76887,803.29518L595.07769,798.63566L593.93314,794.06634L592.34622,789.6312L590.33222,785.37296L587.91054,781.33263L585.1045,777.54912L581.94113,774.05887L578.45088,770.8955L574.66737,768.08946L570.62704,765.66778L566.3688,763.65378L561.93366,762.06686L557.36434,760.92231L552.70482,760.23113L548,760L543.29518,760.23113L538.63566,760.92231L534.06634,762.06686L529.6312,763.65378L525.37296,765.66778L521.33263,768.08946L517.54912,770.8955L514.05887,774.05887L510.8955,777.54912L508.08946,781.33263L505.66778,785.37296L503.65378,789.6312L502.06686,794.06634L500.92231,798.63566L500.23113,803.29518L500,808L500.23113,812.70482L500.92231,817.36434L502.06686,821.93366L503.65378,826.3688L505.66778,830.62704L508.08946,834.66737L510.8955,838.45088L514.05887,841.94113L517.54912,845.1045L521.33263,847.91054L525.37296,850.33222L529.6312,852.34622L534.06634,853.93314L538.63566,855.07769L543.29518,855.76887L548,856L552.70482,855.76887L557.36434,855.07769L561.93366,853.93314L566.3688,852.34622L570.62704,850.33222L574.66737,847.91054L578.45088,845.1045L581.94113,841.94113L585.1045,838.45088L587.91054,834.66737L590.33222,830.62704L592.34622,826.3688L593.93314,821.93366L595.07769,817.36434L595.76887,812.70482L596,808z",
+                "imageId": "65cbc790b4c09848be055870"
+            }
+        ],
+        "imageIds": [
+            "65cbc78ede3b7234d604f922",
+            "65cbc7908bcf3182a90d50f2",
+            "65cbc790b4c09848be055870"
+        ],
+        "codeId": 815,
+        "abbreviation": "tal",
+        "description": "Assessment for alveolar bone loss in the horizontal and/or vertical planes",
+        "summary": "Severe loss of alveolar bone has been identified in the region around a root or roots. Attachment loss is used as an indicator in staging of periodontal disease. Four red bars indicates greater than 50% loss or grade 4 periodontal disease. Two red bars indicates between 25% and 50% loss or grade 3 periodontal disease. Radiographic technique and angle can exaggerate or conceal alveolar bone loss. Radiographic signs should be interpreted in conjunction with the oral exam.",
+        "name": "Severe Attachment (Alveolar Bone) loss",
+        "group": "dental",
+        "subgroup": "",
+        "color": "rgba(0, 160, 210, 0.7)"
+    },
+    {
+        "id": 8072,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [
+            {
+                "svg": "M1152.918,1092.33L1152.54391,1084.71524L1151.42525,1077.17382L1149.57278,1069.77836L1147.00435,1062.60009L1143.7447,1055.70813L1139.82521,1049.16886L1135.28364,1043.04525L1130.16371,1037.39629L1124.51475,1032.27636L1118.39114,1027.73479L1111.85187,1023.8153L1104.95991,1020.55565L1097.78164,1017.98722L1090.38618,1016.13475L1082.84476,1015.01609L1075.23,1014.642L1067.61524,1015.01609L1060.07382,1016.13475L1052.67836,1017.98722L1045.50009,1020.55565L1038.60813,1023.8153L1032.06886,1027.73479L1025.94525,1032.27636L1020.29629,1037.39629L1015.17636,1043.04525L1010.63479,1049.16886L1006.7153,1055.70813L1003.45565,1062.60009L1000.88722,1069.77836L999.03475,1077.17382L997.91609,1084.71524L997.542,1092.33L997.91609,1099.94476L999.03475,1107.48618L1000.88722,1114.88164L1003.45565,1122.05991L1006.7153,1128.95187L1010.63479,1135.49114L1015.17636,1141.61475L1020.29629,1147.26371L1025.94525,1152.38364L1032.06886,1156.92521L1038.60813,1160.8447L1045.50009,1164.10435L1052.67836,1166.67278L1060.07382,1168.52525L1067.61524,1169.64391L1075.23,1170.018L1082.84476,1169.64391L1090.38618,1168.52525L1097.78164,1166.67278L1104.95991,1164.10435L1111.85187,1160.8447L1118.39114,1156.92521L1124.51475,1152.38364L1130.16371,1147.26371L1135.28364,1141.61475L1139.82521,1135.49114L1143.7447,1128.95187L1147.00435,1122.05991L1149.57278,1114.88164L1151.42525,1107.48618L1152.54391,1099.94476L1152.918,1092.33z",
+                "imageId": "65cbc78ede3b7234d604f922"
+            },
+            {
+                "svg": "M421.452,740.61L421.10495,733.54571L420.06716,726.54945L418.3486,719.6886L415.96585,713.02924L412.94183,706.63549L409.30568,700.56894L405.09241,694.88801L400.3426,689.6474L395.10199,684.89759L389.42106,680.68432L383.35451,677.04817L376.96076,674.02415L370.3014,671.6414L363.44055,669.92284L356.44429,668.88505L349.38,668.538L342.31571,668.88505L335.31945,669.92284L328.4586,671.6414L321.79924,674.02415L315.40549,677.04817L309.33894,680.68432L303.65801,684.89759L298.4174,689.6474L293.66759,694.88801L289.45432,700.56894L285.81817,706.63549L282.79415,713.02924L280.4114,719.6886L278.69284,726.54945L277.65505,733.54571L277.308,740.61L277.65505,747.67429L278.69284,754.67055L280.4114,761.5314L282.79415,768.19076L285.81817,774.58451L289.45432,780.65106L293.66759,786.33199L298.4174,791.5726L303.65801,796.32241L309.33894,800.53568L315.40549,804.17183L321.79924,807.19585L328.4586,809.5786L335.31945,811.29716L342.31571,812.33495L349.38,812.682L356.44429,812.33495L363.44055,811.29716L370.3014,809.5786L376.96076,807.19585L383.35451,804.17183L389.42106,800.53568L395.10199,796.32241L400.3426,791.5726L405.09241,786.33199L409.30568,780.65106L412.94183,774.58451L415.96585,768.19076L418.3486,761.5314L420.06716,754.67055L421.10495,747.67429L421.452,740.61z",
+                "imageId": "65cbc790b4c09848be055870"
+            }
+        ],
+        "imageIds": ["65cbc78ede3b7234d604f922", "65cbc790b4c09848be055870"],
+        "codeId": 2585,
+        "abbreviation": "drl",
+        "description": "",
+        "summary": "",
+        "name": "dental-tooth-resorptive-lesion-class",
+        "group": "dental",
+        "subgroup": "",
+        "color": "rgba(239, 211, 67, 0.7)"
+    },
+    {
+        "id": 8074,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": true,
+        "masks": [
+            {
+                "svg": "M1261.60881,1050.83919L1261.03722,1039.20422L1259.32796,1027.6813L1256.49748,1016.38141L1252.57305,1005.41336L1247.59246,994.88278L1241.60368,984.8911L1234.66438,975.53454L1226.84138,966.9032L1218.21004,959.0802L1208.85348,952.1409L1198.8618,946.15212L1188.33122,941.17153L1177.36317,937.2471L1166.06328,934.41662L1154.54036,932.70736L1142.90539,932.13577L1131.27042,932.70736L1119.7475,934.41662L1108.4476,937.2471L1097.47956,941.17153L1086.94898,946.15212L1076.9573,952.1409L1067.60073,959.0802L1058.96939,966.9032L1051.1464,975.53454L1044.2071,984.8911L1038.21832,994.88278L1033.23773,1005.41336L1029.3133,1016.38141L1026.48282,1027.6813L1024.77355,1039.20422L1024.20197,1050.83919L1024.77355,1062.47416L1026.48282,1073.99708L1029.3133,1085.29698L1033.23773,1096.26502L1038.21832,1106.7956L1044.2071,1116.78728L1051.1464,1126.14385L1058.96939,1134.77519L1067.60073,1142.59818L1076.9573,1149.53748L1086.94898,1155.52626L1097.47956,1160.50685L1108.4476,1164.43128L1119.7475,1167.26176L1131.27042,1168.97102L1142.90539,1169.54261L1154.54036,1168.97102L1166.06328,1167.26176L1177.36317,1164.43128L1188.33122,1160.50685L1198.8618,1155.52626L1208.85348,1149.53748L1218.21004,1142.59818L1226.84138,1134.77519L1234.66438,1126.14385L1241.60368,1116.78728L1247.59246,1106.7956L1252.57305,1096.26502L1256.49748,1085.29698L1259.32796,1073.99708L1261.03722,1062.47416L1261.60881,1050.83919z",
+                "imageId": "65cbc78ede3b7234d604f922"
+            }
+        ],
+        "imageIds": ["65cbc78ede3b7234d604f922"],
+        "codeId": 2157,
+        "abbreviation": "trr",
+        "description": "Assessment for the presence of a tooth root remnant or fragment below the gum line with little or no crown present.",
+        "summary": "Retained root remnants/fragments may be found secondary to trauma, incomplete extraction, or tooth resorption. With few exceptions, retained root remnants should be extracted at the time of radiographic diagnosis. Continued retention and regular radiographic monitoring may be considered in select cases, but only if the remnant is radiographically and clinically quiet (no evidence of inflammation, infection, or other pathology), small, and known to be chronic. This test may also identify an unerupted tooth as a retained tooth root. Unerupted teeth should be extracted to prevent the development of a dentigerous cyst. Though, regular radiographic monitoring may be performed instead of extraction in older patients.",
+        "name": "Retained Root(s)",
+        "group": "dental",
+        "subgroup": "",
+        "color": "rgba(238, 67, 67, 0.7)"
+    },
+    {
+        "id": 8093,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": true,
+        "masks": [],
+        "imageIds": ["65ba48f304bb363daa0b7662"],
+        "codeId": 15,
+        "abbreviation": "sio",
+        "description": "Assessment for significant distension of portions of small intestine concurrent with the other portion empty or not distended",
+        "summary": "An abnormal test indicates that there is distension of a portion of small intestine with a concurrent population of small intestine that is empty or not distended. Differential diagnoses include mechanical obstruction, functional ileus, enteritis, or other causes. Clinical signs, physical exam findings, patient status along with radiographic signs should aid in determining which additional diagnostics should be performed. Additional diagnostics may include follow up radiographs, UGI contrast study, or abdominal ultrasound. \r\nDDx: Mechanical obstruction, ileus-functional, enteritis, other",
+        "name": "Two Populations of Small Intestine",
+        "group": "abdomen",
+        "subgroup": "GI tract"
+    },
+    {
+        "id": 8094,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": ["65ba48f357cf2e1cef0793c0"],
+        "codeId": 12,
+        "abbreviation": "gad",
+        "description": "Assessment for an overly distended stomach",
+        "summary": "An abnormal test indicates distension of the stomach. Distension is evaluated based on the shape and size of the stomach and relation of the fundus to the vertebrae or ribs. Causes of stomach distension can be attributed to benign or pathologic processes. Differential diagnoses include aerophagia, post-prandial, food bloat, gastric outflow obstruction, or other causes. Radiographic signs should be interpreted along with clinical signs and physical exam findings to determine significance. \r\nDDx: Aerophagia, post-prandial, food bloat, gastric outflow obstruction, other",
+        "name": "Gastric Distension",
+        "group": "abdomen",
+        "subgroup": "GI tract"
+    },
+    {
+        "id": 8106,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": ["65ba48f304bb363daa0b7662", "65ba48f357cf2e1cef0793c0"],
+        "codeId": 1605,
+        "abbreviation": "gmt",
+        "description": "Assessment for material within the stomach which may be ingesta, foreign material, or a moderate amount of fluid",
+        "summary": "An abnormal test indicates presence of material within the stomach which may be ingesta, foreign material, or a moderate amount of fluid. Radiographic signs should be interpreted along with clinical signs and physical exam findings to determine significance. Differential diagnoses may include normal ingesta (food, fluid, etc.), gastric foreign body, gastric mass, or other cause.\r\nDDx: Normal ingesta- fluid, food, etc, gastric foreign body, gastric mass, other",
+        "name": "Gastric Material",
+        "group": "abdomen",
+        "subgroup": "GI tract"
+    },
+    {
+        "id": 8111,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": true,
+        "masks": [],
+        "imageIds": ["65ba48f304bb363daa0b7662", "65ba48f3ea4778b91f079520"],
+        "codeId": 871,
+        "abbreviation": "PEG",
+        "description": "Assessment for free air in the peritoneal cavity. ",
+        "summary": "An abnormal test indicates presence of free intraperitoneal gas, not contained within any organ. The presence of subcutaneous emphysema may affect interpretation of peritoneal gas. The most common cause of free intraperitoneal gas is laparotomy in which case gas may persist for several weeks. In the absence of a history of surgery, consideration should be given to ruptured organ or penetrating abdominal wounds. \r\nDDx: Post op laparotomy, ruptured bowel, penetrating abdominal wound",
+        "name": "Peritoneal gas",
+        "group": "abdomen",
+        "subgroup": "abdomen"
+    },
+    {
+        "id": 8098,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": ["65ba48f304bb363daa0b7662"],
+        "codeId": 1937,
+        "abbreviation": "spv",
+        "description": "Assessment for visualization of the spleen in the image of a feline",
+        "summary": "An abnormal test indicates that the tail and/or body of the spleen is visible on a lateral view of the abdomen. Visualization of the spleen may indicate that the spleen is prominent or enlarged, but may also represent a normal spleen. Further diagnostics such as abdominal ultrasound are required to definitively determine if pathology is present. \r\nDDx: Normal, splenic neoplasia, splenic congestion, other",
+        "name": "Spleen Visible",
+        "group": "abdomen",
+        "subgroup": "spleen"
+    },
+    {
+        "id": 8089,
+        "isNormal": false,
+        "isAbnormal": true,
+        "isLikely": false,
+        "masks": [],
+        "imageIds": [
+            "65ba48f304bb363daa0b7662",
+            "65ba48f357cf2e1cef0793c0",
+            "65ba48f3ea4778b91f079520"
+        ],
+        "codeId": 715,
+        "abbreviation": "bpp",
+        "description": "Assessment for lung changes typically associated with airway pathology",
+        "summary": "An abnormal test indicates that thickening and increased opacity of bronchial walls are observed in the visible lung fields. Presence of these radiographic signs indicates inflammation of the lower airways though radiographic technique, concurrent disease, and other factors may affect appearance of the lower airways. Differential diagnoses include allergic disease, asthma, infectious or inflammatory disease, normal age related changes, or other pathologies. Further diagnostics should be determined by correlating signalment, clinical signs, and physical exam findings. \r\nDDx: Allergic/asthma/inflammatory, other",
+        "name": "Bronchial Pulmonary Pattern",
+        "group": "thorax",
+        "subgroup": "lungs"
+    }
+]
