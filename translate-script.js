@@ -1,4 +1,5 @@
 require('ts-node/register'); // Register ts-node to compile TS files on the fly
+require('dotenv').config();
 
 const fs = require('fs');
 const path = require('path');
@@ -26,7 +27,6 @@ const argv = yargs(process.argv.slice(2))
   .help()
   .argv;
 
-
 // Function to fetch translations via LibreTranslate
 const fetchTranslation = async (key, locale) => {
   if (locale === 'en') return key;
@@ -37,6 +37,7 @@ const fetchTranslation = async (key, locale) => {
       q: key,
       source: "en",
       target: locale,
+      api_key: process.env.REACT_APP_LIBRETRANSLATE_API_KEY
     }),
     headers: { "Content-Type": "application/json" },
   });
