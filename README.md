@@ -17,3 +17,4 @@
 2. Instead of having `TranslateWrapper` create a High-Order-Component which will be used when exporting or importing a component and doesn't require to modify the component itself. Now we have the wrapper which requires to modify the component and wrap the component inside it
 3. `TranslateWrapper` is not efficient, it only targets a few level of nesting and if element that needs to be transleted is very deeply nested in the components tree it won't be detected
 4. Use the NextJS application instead since I could use server-side-rendering to do the translations logic
+5. Instead of using translate="yes" properties on JSX elements it is more common practice to use the tranlation hook, something like this `const { t } = useTranslation()`, I would suggest to use this hook which will make it easier to detect the strings that need to be translated but I haven't used this since the requirement was to target elements with translate="yes"
