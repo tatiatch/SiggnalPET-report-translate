@@ -1,4 +1,5 @@
 import { reportHeader } from "../utils/constants";
+import TranslateWrapper from "./translateWrapper";
 
 const styles = {
     container: {
@@ -19,6 +20,7 @@ const styles = {
 
 const ReportHeader = () => {
     return (
+        <TranslateWrapper>
         <div style={styles.container}>
             <img
                 alt="Logo"
@@ -26,9 +28,10 @@ const ReportHeader = () => {
                 style={styles.logo}
             />
             <span style={styles.secondaryText} translate="yes">
-                {reportHeader.secondaryText}
+                Instant Point-of-Care Radiology Results
             </span>
         </div>
+        </TranslateWrapper>
     );
 };
 

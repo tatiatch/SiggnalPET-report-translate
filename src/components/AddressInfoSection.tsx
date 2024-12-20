@@ -1,5 +1,6 @@
 import { CSSProperties } from "react";
 import { MapPinIcon } from "lucide-react";
+import TranslateWrapper from "./translateWrapper";
 
 const styles = {
     container: {
@@ -22,6 +23,7 @@ const styles = {
 
 const AddressInfoSection = () => {
     return (
+        <TranslateWrapper>
         <div style={styles.container}>
             <span style={styles.title}>Company1</span>
             <div style={styles.addressTextWrapper}>
@@ -29,6 +31,7 @@ const AddressInfoSection = () => {
                 <span style={styles.addressText}>Line1, Line2, City Yes</span>
             </div>
         </div>
+        </TranslateWrapper>
     );
 };
 

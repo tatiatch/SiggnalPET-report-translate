@@ -4,6 +4,7 @@ import ContactInfoSection from "./ContactInfoSection";
 import ParentDetailsSection from "./ParentDetailsSection";
 import ReportFindings from "./ReportFindings";
 import { reportBasicInfo } from "../utils/constants";
+import TranslateWrapper from "./translateWrapper";
 
 const styles = {
     container: {
@@ -35,6 +36,7 @@ const styles = {
 
 const ReportBasicInfoSection = () => {
     return (
+        <TranslateWrapper>
         <div>
             <ReportSection
                 title={reportBasicInfo.reportTitle}
@@ -92,6 +94,7 @@ const ReportBasicInfoSection = () => {
                 <ReportFindings isNormal={true} editable={true} />
             </ReportSection>
         </div>
+        </TranslateWrapper>
     );
 };
 
