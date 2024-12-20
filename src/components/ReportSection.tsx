@@ -1,4 +1,5 @@
 import { CSSProperties, ReactNode } from "react";
+import TranslateWrapper from "./translateWrapper";
 
 interface ReportSectionInterface {
     children?: ReactNode;
@@ -32,6 +33,7 @@ const ReportSection = (props: ReportSectionInterface) => {
     const { title, children, secondaryText, style, contentWrapperStyle } =
         props;
     return (
+        <TranslateWrapper>
         <div style={{ ...styles.container, ...style }}>
             <div style={styles.headerContainer}>
                 <span style={styles.titleText} translate="yes">
@@ -45,6 +47,7 @@ const ReportSection = (props: ReportSectionInterface) => {
                 {children}
             </div>
         </div>
+        </TranslateWrapper>
     );
 };
 
