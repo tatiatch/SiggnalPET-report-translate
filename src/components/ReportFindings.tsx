@@ -5,6 +5,7 @@ import { type Finding, type Findings } from "../models/finding";
 import { getRandomNumberInRange } from "../utils/numbers";
 import { selectRandomObjects } from "../utils/objects";
 import { randomXrayFinding } from "../utils/strings";
+import TranslateWrapper from "./translateWrapper";
 
 const styles = {
     gap3: {
@@ -140,6 +141,7 @@ const ReportFinding = ({
 
     return (
         <>
+        <TranslateWrapper>
             <div style={styles.gap4}>
                 {editable && (
                     <Checkbox2
@@ -170,6 +172,7 @@ const ReportFinding = ({
                     checked={checked}
                 />
             </div>
+        </TranslateWrapper>
         </>
     );
 };

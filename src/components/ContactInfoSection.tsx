@@ -1,6 +1,7 @@
 import { ReactNode, CSSProperties } from "react";
 import { MailIcon, PhoneIcon } from "lucide-react";
 import InputTag from "./InputTag";
+import TranslateWrapper from "./translateWrapper";
 
 const styles = {
     sectionContainer: {
@@ -16,10 +17,12 @@ interface ContactInfoSectionInterface {
 
 const ContactInfoSection = (props: ContactInfoSectionInterface) => {
     return (
+        <TranslateWrapper>
         <div style={{ ...styles.sectionContainer, ...props.style }}>
             <InputTag icon={<MailIcon size={15} />}>test@dummy.com</InputTag>
             <InputTag icon={<PhoneIcon size={15} />}>+1 7894561234</InputTag>
         </div>
+        </TranslateWrapper>
     );
 };
 

@@ -1,5 +1,6 @@
 import InputTag from "./InputTag";
 import { generateXrayAnalysisSummary } from "../utils/strings";
+import TranslateWrapper from "./translateWrapper";
 
 const styles = {
     title: {
@@ -15,10 +16,12 @@ const styles = {
 
 const ReportAdditionalInformationSection = () => {
     return (
+        <TranslateWrapper>
         <div translate="yes">
             <span style={styles.title}>Summary: </span>
             <InputTag editable={true}>{generateXrayAnalysisSummary()}</InputTag>
         </div>
+        </TranslateWrapper>
     );
 };
 
